@@ -172,11 +172,15 @@ h1 {
     font-size: 14px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){      
+
     .container{
         display: block;
-        background-image: none;
+        background-image: none;        
+        margin-bottom: -50px;
     }
+
+    
 
     .container__img {
         width: 50vw;
@@ -188,7 +192,9 @@ h1 {
 
     .secundario{
         margin: 0;
+        padding: 0;
         text-align: center;
+        margin-bottom: -60px;
     }
 
     .img_secundaria{
@@ -202,5 +208,6 @@ h1 {
     .rodape__lista{
         display: block;        
     }
+
     
 }
